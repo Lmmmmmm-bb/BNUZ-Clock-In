@@ -1,0 +1,19 @@
+.message-container {
+  @apply absolute flex;
+  @apply text-center bg-white;
+  @apply shadow transition-all duration-300;
+  padding: 8px 10px;
+  line-height: 21px;
+  border-radius: 2px;
+  font-size: 14px;
+  top: -40px;
+}
+
+.container-visible {
+  top: 16px;
+}
+
+.message-tip .message-icon {
+  width: 20px;
+  margin-right: 6px;
+}
