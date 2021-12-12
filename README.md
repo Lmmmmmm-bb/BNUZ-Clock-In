@@ -1,4 +1,4 @@
-# BNUZ-Clock-In
+# Bnuz-Clock-In-V2
 
 ## 为什么要重构系统
 
@@ -6,14 +6,15 @@
 
 2. 重构前的系统前端使用的是 Vue + Vue Router。由于之后的实习主要使用到 React，所以借这次机会学习一下 React 的知识。
 
-3. 重构前使用 Javascript 来实现。使用 Typescript 实现前后端项目。
+3. 重构前后端使用 Javascript 来实现。使用 Typescript 实现前后端项目。
 
 ## 功能特性
 
 - [x] 支持微信推送打卡结果
+- [x] 支持网页提交用户信息
 - [ ] 支持 Telegram Bot 提交用户信息
 
-## 基于 [Notion Api](https://developers.notion.com/) 存储数据
+## 基于 [Notion Api](https://developers.notion.com/)
 
 - [Query Database](https://developers.notion.com/reference/post-database-query)
 
